@@ -10,7 +10,8 @@ import com.gene.sample.ClassIAddedJustToGetAUnitTestUp;
 
 public class ClassIAddedJustToGetAUnitTestUp_Test {
 	ClassIAddedJustToGetAUnitTestUp c = new ClassIAddedJustToGetAUnitTestUp();
-
+	//This is a comment.
+	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
