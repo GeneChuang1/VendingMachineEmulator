@@ -6,7 +6,10 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import com.gene.sample.ClassIAddedJustToGetAUnitTestUp;
+
 public class ClassIAddedJustToGetAUnitTestUp_Test {
+	ClassIAddedJustToGetAUnitTestUp c = new ClassIAddedJustToGetAUnitTestUp();
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -18,7 +21,9 @@ public class ClassIAddedJustToGetAUnitTestUp_Test {
 
 	@Test
 	public void test() {
-		//fail("Not yet implemented");
+		int result= c.add(1, 1);
+		assertEquals(result, 2);
+		// fail("Not yet implemented");
 	}
 
 }
