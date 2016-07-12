@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 
 import items.AbstractItem;
 
-//I Added code here. This is a test. 
 
 public class Customer_View {
 
