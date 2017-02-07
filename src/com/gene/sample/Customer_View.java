@@ -9,6 +9,8 @@ import items.AbstractItem;
 public class Customer_View {
 
 	public static void main(String[] args) throws IOException {
+		//Comment
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		Customer_View customer = new Customer_View();
